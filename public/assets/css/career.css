@@ -1,0 +1,289 @@
+.carrer__your_bank{
+    max-width: 1600px;
+    width: 100%;
+    margin: 50px auto;
+    border-radius: 20px;
+    background:  #1C1C1C;
+    padding: 50px;
+    position: relative;
+}
+.carrer__your_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 0px 80px 20px;
+    background:  #1A1A1A;
+    padding: 50px;
+    max-width: 791px;
+    transform: translate(6%, 12%);
+    /* animation: alternate shake 0.5s infinite; */
+
+}
+.carrer__your_img img{
+    width: 100%;
+    max-width: 960px;
+}
+/* @keyframes shake{
+    0%{
+        transform: translate(6%, 12%);
+    }
+    20%{
+        transform: translate(4%, 10%);
+    }
+    40%{
+        transform: translate(8%, 14%);
+    }
+    60%{
+        transform: translate(7%, 13%);
+    }
+    80%{
+        transform: translate(5%, 11%);
+    }
+    100%{
+        transform: translate(6%, 12%);
+    }
+} */
+.carrer__your_content h1{
+    font-size: 58px;
+    color: #ffff;
+}
+.carrer__your_content h1 span{
+    color: #CAFF33;
+}
+.carrer__your_content p{
+    color: #B3B3B3;
+    font-size: 18px;
+    padding: 23px 0 0 0;
+}
+.carrer__your_img{
+    display: flex;
+    justify-content: end;
+}
+/* another section start here-- */
+.career__values{
+    max-width: 1596px;
+    width: 100%;
+    margin: 50px auto;
+}
+.career__values_head h2{
+    font-size: 48px;
+    color: #fff;
+}
+.career__values_head h2 span{
+    color: #CAFF33;
+}
+.career__values_head p{
+    color: #B3B3B3;
+    font-size: 18px;
+    padding: 14px 0 0 0;
+}
+.career__values_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 80px 0;
+    gap: 60px;
+}
+.career__values_cart{
+    max-width: 758px;
+    width: 100%;
+    padding: 0 0 0 30px;
+    border-left: solid #CAFF33 1px;
+}
+.career__values_cart h2{
+    color: #4C4C4D;
+    font-size: 58px;
+}
+.career__values_cart p{
+    font-size: 18px;
+    padding: 30px  0 0 0;
+    color: #B3B3B3;
+}
+/* another section start here-- */
+.career__benifits{
+    max-width: 1596px;
+    width: 100%;
+    margin: 50px auto;
+}
+.career__benifits_head h2{
+    font-size: 48px;
+    color: #fff;
+}
+.career__benifits_head h2 span{
+    color: #CAFF33;
+}
+.career__benifits_head p{
+    color: #B3B3B3;
+    font-size: 18px;
+    padding: 14px 0 0 0;
+}
+.career__benifits_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 80px 0;
+    gap: 60px;
+}
+.career__benifits_cart{
+    border-radius: 50px 20px;
+    border: 1px solid rgba(202, 255, 51, 0.10);
+    background-blend-mode: normal, normal, screen;
+    padding: 50px;
+    max-width: 748px;
+}
+.career__benifits_cart p{
+    color: #B3B3B3;
+    font-size: 18px;
+    padding: 30px 0 0 0;
+}
+.career__benifits_cart_in{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.career__benifits_cart_in h3{
+    color: #fff;
+    font-size: 24px;
+}
+/* another section start here */
+.career__jobopening{
+    max-width: 1596px;
+    width: 100%;
+    margin: 50px auto;
+}
+.career__jobopening_head h2{
+    font-size: 48px;
+    color: #fff;
+}
+.career__jobopening_head h2 span{
+    color: #CAFF33;
+}
+.career__jobopening_head p{
+    color: #B3B3B3;
+    font-size: 18px;
+    padding: 14px 0 0 0;
+}
+.career__jobopening_content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 80px 0;
+    gap: 10px;
+}
+.career__jobopening_cart{
+    border-radius: 16px;
+    border: 1px solid  #262626;
+    background:  #1C1C1C;
+    padding: 50px;
+    max-width: 783px;
+    width: 100%;
+
+}
+.career_btn{
+    color: #000;
+    background: #CAFF33;
+    font-size: 18px;
+    border-radius: 60px;
+    border: none;
+    padding: 16px 30px;
+    margin: 50px 0 0 0;
+}
+.career__jobopening_role button{
+    background:  #1A1A1A;
+    border: 1px solid  #262626;
+    padding: 8px 16px !important;
+    border-radius: 60px;
+    font-size: 18px;
+    color: #B3B3B3;
+}
+.career__jobopening_role h2{
+    font-size: 30px;
+    color: #fff;
+    padding: 0 0 14px 0;
+}
+.career__jobopening_cart p{
+    color: #B3B3B3;
+    font-size: 18px;
+   
+}
+.career__jobopening_about p{
+    padding: 20px 0 0 0 ;
+}
+.career__jobopening_about{
+    margin: 30px 0 40px 0;    
+}
+.career__jobopening_content h3{
+    font-size: 24px;
+    color: #fff;
+}
+.require__detail{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0 0 0;
+}
+
+/* the carrer page responsive design is below-- */
+
+@media screen and (max-width:1200px) {
+    .carrer__your_img img{
+        max-width: 716px;
+    }
+    .career__jobopening{
+        text-align: center;
+    }
+    .career__jobopening_content{
+        justify-content: center;
+        gap: 30px;
+    }
+    .career__benifits_content{
+        justify-content: center;
+    }
+    .career__benifits{
+        text-align: center;
+    }
+    .career__values{
+        text-align: center;
+    }
+    .career__values_content{
+        justify-content: center;
+    }
+}
+@media screen and (max-width:991px) {
+    .carrer__your_content{
+        padding: 30px;
+        transform: translate(11%, 100%);
+    }
+    .carrer__your_img img{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .carrer__your_content{
+        max-width: 591px;
+        transform: translate(13%, 100%);
+    }
+    .carrer__your_bank{
+        margin: 50px auto 250px;
+    }
+}
+@media screen and (max-width:660px) {
+    .carrer__your_content{
+        display: none;
+    }
+    .carrer__your_bank{
+        margin: 50px auto 50px;
+    }
+    body{
+        padding: 0 10px ;
+    }
+}
+
+
+@media screen and (max-width:428px){
+    .career__values_cart h2{
+        font-size: 48px;
+    }
+    .career__benifits_cart{
+        padding: 20px;
+    }
+    .carrer__your_bank{
+        padding: 20px;
+    }
+}

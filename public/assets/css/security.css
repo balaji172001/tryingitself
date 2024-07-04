@@ -1,0 +1,29 @@
+.security__protect{
+    max-width: 1660px;
+    width: 100%;
+    margin: 50px auto;
+}
+.security__protect_head h1{
+    font-size: 48px;
+    color: #fff;
+}
+.security__protect_head h1 span{
+    color: #CAFF33;
+}
+.security__protect_head p{
+    font-size: 18px;
+    color: #B3B3B3;
+    padding: 14px 0 0 0;
+}
+.security__protect_content{
+    margin: 40px 0;
+    padding: 82px 93px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.security__cart{
+    max-width: 688px !important;
+}
+.security__cart_content{
+    justify-content: center;
+}

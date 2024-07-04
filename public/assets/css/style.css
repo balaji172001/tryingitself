@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  #1A1A1A;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Lexend', sans-serif;
+    position: relative;
+}
+body::before{
+    background: url(../images/top_image.png);
+    position: absolute;
+    content: "";
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+/* the below design is scroll top-- */
+.scrollup_round{
+    width:50px;
+    height:50px;              
+    position:fixed;
+    bottom:50px;
+    right:30px;
+    display:none;
+    background: #CAFF33;
+    border-radius: 50%;
+    padding: 5px;
+}
+section{
+    overflow: hidden;
+}
+.btna {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style the active class, and buttons on mouse-over */
+  .active, .btna:hover {
+    border-radius: 82px;
+    background: #262626;
+    padding: 12px 24px;
+    margin: 0;
+  }
+
+ /* page-loader-design  */
+  .loader-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1A1A1A;
+    z-index: 99999;
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.progress {
+   width: 172.8px;
+   height: 31.7px;
+ 
+   border-radius: 28.8px;
+   color: #caff33;
+   border: 2.9px solid;
+   position: relative;
+   
+}
+
+.progress::before {
+   content: "";
+   position: absolute;
+   margin: 2.9px;
+   inset: 0 100% 0 0;
+   border-radius: inherit;
+   background: currentColor;
+   animation: progress 2s infinite;
+}
+
+@keyframes progress {
+   100% {
+      inset: 0;
+   }
+}
+.progress h1{
+    font-size: 24px;
+    padding: 5px 20px 10px;
+    margin: -5px 0;
+}
